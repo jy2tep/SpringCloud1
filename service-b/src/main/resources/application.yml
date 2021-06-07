@@ -1,0 +1,19 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: service-objcat-b
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: jy2333
+    password: 159357258Jy
+    url: jdbc:mysql://rm-bp159fja759096noako.mysql.rds.aliyuncs.com:3306/jyadmin?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
