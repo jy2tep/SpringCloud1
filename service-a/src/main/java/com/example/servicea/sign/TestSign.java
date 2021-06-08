@@ -3,6 +3,8 @@ package com.example.servicea.sign;
 import com.example.servicea.Excep.UserException;
 import lombok.SneakyThrows;
 import org.apache.http.HttpStatus;
+import org.apache.log4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.HttpInputMessage;
@@ -29,6 +31,7 @@ public class TestSign extends RequestBodyAdviceAdapter {
     private HttpServletRequest request;
     @Autowired
     private SignTestDo signTestDo;
+    private Logger logger = Logger.getLogger(TestSign.class);
     @Override
     public boolean supports(MethodParameter var1, Type var2, Class<? extends HttpMessageConverter<?>> var3) {
         return true;
@@ -38,7 +41,7 @@ public class TestSign extends RequestBodyAdviceAdapter {
     public Object afterBodyRead(Object body, HttpInputMessage inputMessage, MethodParameter parameter, Type targetType, Class<? extends HttpMessageConverter<?>> converterType) {
         Map<String, Object> input = new HashMap<>();
         Field[] fields = body.getClass().getDeclaredFields(); //获取实体类的所有属性，返回Field数组
-
+        logger.info("请求路径{"+request.getRequestURI()+"}$$请求参数:{"+body+"}");
         for (Field field : fields) {
             String attName = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1);
             String type = field.getGenericType().toString();    //获取属性的类型
