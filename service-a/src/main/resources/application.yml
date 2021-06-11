@@ -17,3 +17,5 @@ ribbon:
   ConnectTimeout: 5000
 api:
   secret: 7B015825E7876D34
+log:
+  url:

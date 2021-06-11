@@ -1,5 +1,6 @@
 package com.example.servicea.sign;
 
+import com.alibaba.fastjson.JSON;
 import org.apache.log4j.Logger;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
@@ -13,12 +14,13 @@ public class afterResponseBody implements ResponseBodyAdvice {
     private Logger logger = Logger.getLogger(afterResponseBody.class);
     @Override
     public boolean supports(MethodParameter methodParameter, Class aClass) {
-        return false;
+        return true;
     }
 
     @Override
     public Object beforeBodyWrite(Object o, MethodParameter methodParameter, MediaType mediaType, Class aClass, ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
-        logger.info("返回值{"+o.toString()+"}");
-        return null;
+        logger.info("返回值:"+ JSON.toJSONString(o));
+        logger.info("END========================================================================");
+        return JSON.toJSONString(o);
     }
 }
