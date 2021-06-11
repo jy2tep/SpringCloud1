@@ -1,5 +1,6 @@
 package com.example.servicea.sign;
 
+import com.alibaba.fastjson.JSON;
 import com.example.servicea.Excep.UserException;
 import lombok.SneakyThrows;
 import org.apache.http.HttpStatus;
@@ -41,7 +42,8 @@ public class TestSign extends RequestBodyAdviceAdapter {
     public Object afterBodyRead(Object body, HttpInputMessage inputMessage, MethodParameter parameter, Type targetType, Class<? extends HttpMessageConverter<?>> converterType) {
         Map<String, Object> input = new HashMap<>();
         Field[] fields = body.getClass().getDeclaredFields(); //获取实体类的所有属性，返回Field数组
-        logger.info("请求路径{"+request.getRequestURI()+"}$$请求参数:{"+body+"}");
+        logger.info("Begin===============================================================");
+        logger.info("请求路径:"+request.getRequestURI()+"\n请求参数:"+ JSON.toJSONString(body));
         for (Field field : fields) {
             String attName = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1);
             String type = field.getGenericType().toString();    //获取属性的类型
