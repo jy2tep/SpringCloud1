@@ -1,0 +1,9 @@
+2021-06-08 16:39:44,607  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-08 16:42:23,119  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-08 16:50:06,423  INFO TestSign:44 - 请求参数:VipForms(id=1, mobile=1322239906, password=159357258jy, name=胡菊菊111111111, account=123456, headurl=www.jpg)
+2021-06-08 17:06:23,249  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-08 17:06:54,909  INFO TestSign:44 - 请求路径/ceshi请求参数:VipForms(id=1, mobile=1322239906, password=159357258jy, name=胡菊菊111111111, account=123456, headurl=www.jpg)
+2021-06-08 17:08:25,569  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-08 17:08:57,889  INFO TestSign:44 - 请求路径{/ceshi}$$请求参数:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=胡菊菊111111111, account=123456, headurl=www.jpg)}
+2021-06-08 17:58:07,286  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-08 17:58:38,630  INFO TestSign:44 - 请求路径{/ceshi}$$请求参数:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=胡菊菊111111111, account=123456, headurl=www.jpg)}

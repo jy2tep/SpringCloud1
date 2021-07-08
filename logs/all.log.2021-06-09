@@ -1,0 +1,19 @@
+2021-06-09 15:51:20,376  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-09 15:59:53,150  INFO TestSign:44 - ÇëÇóÂ·¾¶{/ceshi}$$ÇëÇó²ÎÊý:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=ºú¾Õ¾Õ111111111, account=123456, headurl=www.jpg)}
+2021-06-09 16:02:03,395  INFO TestSign:44 - ÇëÇóÂ·¾¶{/ceshi}$$ÇëÇó²ÎÊý:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=ºú¾Õ¾Õ111111111, account=123456, headurl=www.jpg)}
+2021-06-09 16:08:32,237  INFO TestSign:44 - ÇëÇóÂ·¾¶{/ceshi}$$ÇëÇó²ÎÊý:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=ºú¾Õ¾Õ111111111, account=123456, headurl=www.jpg)}
+2021-06-09 16:08:50,062  INFO TestSign:44 - ÇëÇóÂ·¾¶{/ceshi}$$ÇëÇó²ÎÊý:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=ºú¾Õ¾Õ111111111, account=123456, headurl=www.jpg)}
+2021-06-09 16:15:12,778  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-09 16:15:33,140  INFO TestSign:44 - ÇëÇóÂ·¾¶{/ceshi}$$ÇëÇó²ÎÊý:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=ºú¾Õ¾Õ111111111, account=123456, headurl=www.jpg)}
+2021-06-09 16:15:33,524  INFO afterResponseBody:21 - ·µ»ØÖµ{[Vip(id=1, mobile=155425275311, password=123456, name=ºú¾Õ¾Õ111111111, account=1322239906, headurl=null), Vip(id=2, mobile=15542527531, password=12345678, name=ºúî£ÐÀ, account=1322239907, headurl=null), Vip(id=3, mobile=15542527531, password=12345678, name=ºúî£ÐÀ, account=1322239907, headurl=null), Vip(id=4, mobile=15542527531, password=12345678, name=ºúî£ÐÀÉ³µñ11111111, account=1322239907, headurl=null)]}
+2021-06-09 16:19:32,767  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-09 16:19:42,966  INFO TestSign:44 - Begin===============================================================
+2021-06-09 16:19:42,967  INFO TestSign:45 - ÇëÇóÂ·¾¶{/ceshi}$$ÇëÇó²ÎÊý:{VipForms(id=1, mobile=1322239906, password=159357258jy, name=ºú¾Õ¾Õ111111111, account=123456, headurl=www.jpg)}
+2021-06-09 16:19:43,291  INFO afterResponseBody:21 - ·µ»ØÖµ{[Vip(id=1, mobile=155425275311, password=123456, name=ºú¾Õ¾Õ111111111, account=1322239906, headurl=null), Vip(id=2, mobile=15542527531, password=12345678, name=ºúî£ÐÀ, account=1322239907, headurl=null), Vip(id=3, mobile=15542527531, password=12345678, name=ºúî£ÐÀ, account=1322239907, headurl=null), Vip(id=4, mobile=15542527531, password=12345678, name=ºúî£ÐÀÉ³µñ11111111, account=1322239907, headurl=null)]}
+2021-06-09 16:19:43,291  INFO afterResponseBody:22 - END========================================================================
+2021-06-09 16:33:23,687  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-09 16:34:17,657  INFO TestSign:45 - Begin===============================================================
+2021-06-09 16:34:17,732  INFO TestSign:46 - ÇëÇóÂ·¾¶:/ceshi
+ÇëÇó²ÎÊý:{"account":"123456","headurl":"www.jpg","id":1,"mobile":"1322239906","name":"ºú¾Õ¾Õ111111111","password":"159357258jy"}
+2021-06-09 16:34:18,174  INFO afterResponseBody:22 - ·µ»ØÖµ:"[Vip(id=1, mobile=155425275311, password=123456, name=ºú¾Õ¾Õ111111111, account=1322239906, headurl=null), Vip(id=2, mobile=15542527531, password=12345678, name=ºúî£ÐÀ, account=1322239907, headurl=null), Vip(id=3, mobile=15542527531, password=12345678, name=ºúî£ÐÀ, account=1322239907, headurl=null), Vip(id=4, mobile=15542527531, password=12345678, name=ºúî£ÐÀÉ³µñ11111111, account=1322239907, headurl=null)]"
+2021-06-09 16:34:18,174  INFO afterResponseBody:23 - END========================================================================
