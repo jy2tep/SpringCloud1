@@ -1,0 +1,35 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: service-objcat-user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: jy2333
+    password: 159357258Jy
+    url: jdbc:mysql://rm-bp159fja759096noako.mysql.rds.aliyuncs.com:3306/jyadmin?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+  redis:
+    host: r-bp1d4ac1ed50a254pd.redis.rds.aliyuncs.com
+    port: 6379
+    password: 123456Jy
+    pool:
+    max-idle: 100
+    min-idle: 1
+    max-active: 1000
+    max-wait: -1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+api:
+  secret: 7B015825E7876D34
+log:
+  url:

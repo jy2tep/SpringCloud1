@@ -1,4 +1,4 @@
-package com.example.servicea.sign;
+package serviceuser.ServiceUser.sign;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.log4j.Logger;
