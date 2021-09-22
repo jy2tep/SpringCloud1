@@ -1,0 +1,171 @@
+2021-06-11 13:14:46,255  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 13:19:39,222  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 13:19:59,184  INFO TestSign:45 - Begin===============================================================
+2021-06-11 13:19:59,333  INFO TestSign:46 - «Î«Û¬∑æ∂:/ceshi
+«Î«Û≤Œ ˝:{"account":"123456","headurl":"www.jpg","id":1,"mobile":"1322239906","name":"∫˙æ’æ’111111111","password":"159357258jy"}
+2021-06-11 13:19:59,359  INFO afterResponseBody:23 - ∑µªÿ÷µ:{"code":-1,"message":"«©√˚¥ÌŒÛ","success":false}
+2021-06-11 13:19:59,360  INFO afterResponseBody:24 - END========================================================================
+2021-06-11 13:55:03,296  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 13:55:18,585  INFO TestSign:45 - Begin===============================================================
+2021-06-11 13:55:18,700  INFO TestSign:46 - «Î«Û¬∑æ∂:/ceshi
+«Î«Û≤Œ ˝:{"account":"123456","headurl":"www.jpg","id":1,"mobile":"1322239906","name":"∫˙æ’æ’111111111","password":"159357258jy"}
+2021-06-11 13:55:18,726  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":-1,"message":"«©√˚¥ÌŒÛ","success":false}
+2021-06-11 13:55:18,726  INFO afterResponseBody:23 - END========================================================================
+2021-06-11 14:23:38,333  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 14:28:07,501  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 15:53:50,645  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:05:51,327  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:16:22,116  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:18:05,836  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:19:52,780  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:29:06,829  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:30:52,523  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:31:56,948  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:36:14,174  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:38:53,908  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:41:07,430  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-11 16:41:10,199  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-11 16:41:10,290  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-06-11 16:41:10,547  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-11 16:41:10,775  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-11 16:41:11,675  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-22 16:52:04,387  INFO TestSign:41 - Begin===============================================================
+2021-06-22 16:52:04,547  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"password":"159357258jy"}
+2021-06-22 16:52:04,590  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":-1,"message":"«©√˚¥ÌŒÛ","success":false}
+2021-06-22 16:52:04,590  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 16:52:31,830  INFO TestSign:41 - Begin===============================================================
+2021-06-22 16:52:31,831  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"123456","password":"159357258jy"}
+2021-06-22 16:52:31,833  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":-1,"message":"«©√˚¥ÌŒÛ","success":false}
+2021-06-22 16:52:31,834  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 16:53:12,152  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"timestamp":1624351992141,"status":404,"error":"Not Found","message":"","path":"/siginin1"}
+2021-06-22 16:53:12,152  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 16:53:17,160  INFO TestSign:41 - Begin===============================================================
+2021-06-22 16:53:17,160  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"123456","password":"159357258jy"}
+2021-06-22 16:53:17,161  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":-1,"message":"«©√˚¥ÌŒÛ","success":false}
+2021-06-22 16:53:17,162  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 16:53:51,852  INFO TestSign:41 - Begin===============================================================
+2021-06-22 16:53:51,853  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"123456","password":"159357258jy"}
+2021-06-22 16:53:51,853  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":-1,"message":"«©√˚¥ÌŒÛ","success":false}
+2021-06-22 16:53:51,854  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 16:54:04,897  INFO TestSign:41 - Begin===============================================================
+2021-06-22 16:54:04,898  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"123456","password":"159357258"}
+2021-06-22 16:54:04,898  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":-1,"message":"«©√˚¥ÌŒÛ","success":false}
+2021-06-22 16:54:04,899  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 16:58:09,624  INFO TestSign:41 - Begin===============================================================
+2021-06-22 16:58:09,626  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"123456","password":"159357258"}
+2021-06-22 16:58:10,210  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":0,"message":"◊¢≤·≥…π¶","success":true}
+2021-06-22 16:58:10,210  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 17:46:02,161  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-22 17:46:05,146  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-22 17:46:05,233  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-06-22 17:46:05,498  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-22 17:46:05,758  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-22 17:46:06,782  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-22 17:46:53,374  INFO TestSign:41 - Begin===============================================================
+2021-06-22 17:46:53,479  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"1253754271","password":"123456"}
+2021-06-22 17:46:57,035  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":0,"message":"◊¢≤·≥…π¶,xAuthtoken:4df14bca4a3638bc861ad759761e989d","success":true}
+2021-06-22 17:46:57,036  INFO afterResponseBody:23 - END========================================================================
+2021-06-22 17:59:07,027  INFO TestSign:41 - Begin===============================================================
+2021-06-22 17:59:07,034  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"1322239906","password":"123456789"}
+2021-06-22 17:59:07,343  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":0,"message":"◊¢≤·≥…π¶,xAuthtoken:bc9baf322ac36937784467a2350e47e2","success":true}
+2021-06-22 17:59:07,343  INFO afterResponseBody:23 - END========================================================================
+2021-06-23 11:26:22,307  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-23 11:26:26,022  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-23 11:26:26,115  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-06-23 11:26:26,363  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-23 11:26:26,578  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-23 11:26:27,492  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-23 11:26:53,277  INFO TestSign:41 - Begin===============================================================
+2021-06-23 11:26:53,399  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"13222399064","password":"123456789"}
+2021-06-23 11:26:55,476  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":0,"message":"◊¢≤·≥…π¶,xAuthtoken:F8AA2A9AD4C98E838D3D4FF50A71AC09","success":true}
+2021-06-23 11:26:55,476  INFO afterResponseBody:23 - END========================================================================
+2021-06-23 11:30:11,818  INFO TestSign:41 - Begin===============================================================
+2021-06-23 11:30:11,818  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"132223990634","password":"123456"}
+2021-06-23 11:30:11,923  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":0,"message":"◊¢≤·≥…π¶,xAuthtoken:9E14057AB0AA08588006AF5FB9A69127","success":true}
+2021-06-23 11:30:11,924  INFO afterResponseBody:23 - END========================================================================
+2021-06-23 11:47:07,894  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-06-23 11:47:10,184  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-23 11:47:10,253  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-06-23 11:47:10,470  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-23 11:47:10,646  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-23 11:47:11,522  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-23 11:47:36,572  INFO TestSign:41 - Begin===============================================================
+2021-06-23 11:47:36,664  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"132223990634","password":"123456"}
+2021-06-23 11:47:37,019  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":-1,"message":"µ±«∞◊¢≤·µƒ’À∫≈“—æ≠¥Ê‘⁄!","success":false}
+2021-06-23 11:47:37,019  INFO afterResponseBody:23 - END========================================================================
+2021-06-23 11:47:47,255  INFO TestSign:41 - Begin===============================================================
+2021-06-23 11:47:47,256  INFO TestSign:42 - «Î«Û¬∑æ∂:/siginin
+«Î«Û≤Œ ˝:{"count":"1322239906347test","password":"123456"}
+2021-06-23 11:47:49,910  INFO afterResponseBody:22 - ∑µªÿ÷µ:{"code":0,"message":"◊¢≤·≥…π¶","success":true}
+2021-06-23 11:47:49,911  INFO afterResponseBody:23 - END========================================================================
+2021-09-13 13:17:35,818  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-13 13:17:38,827  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-13 13:17:38,890  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-13 13:17:39,132  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-13 13:17:39,350  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-13 13:17:40,443  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-13 13:31:32,888  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-13 13:31:36,321  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-13 13:31:36,394  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-13 13:31:36,661  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-13 13:31:36,905  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-13 13:31:38,081  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-13 15:44:39,148  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-13 15:44:42,469  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-13 15:44:42,549  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-13 15:44:42,748  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-13 15:44:42,998  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-13 15:44:44,077  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-13 15:48:26,912  INFO TestSign:41 - Begin===============================================================
+2021-09-13 15:48:27,009  INFO TestSign:42 - ËØ∑Ê±ÇË∑ØÂæÑ:/signin
+ËØ∑Ê±ÇÂèÇÊï∞:{"count":"jiangyuan1","password":"258789"}
+2021-09-13 15:48:27,426  INFO afterResponseBody:22 - ËøîÂõûÂÄº:{"code":-1,"message":"ÂØÜÁ†ÅÈîôËØØ","success":false}
+2021-09-13 15:48:27,426  INFO afterResponseBody:23 - END========================================================================
+2021-09-13 15:48:37,326  INFO TestSign:41 - Begin===============================================================
+2021-09-13 15:48:37,326  INFO TestSign:42 - ËØ∑Ê±ÇË∑ØÂæÑ:/signin
+ËØ∑Ê±ÇÂèÇÊï∞:{"count":"jiangyuan1","password":"123456"}
+2021-09-13 15:48:37,416  INFO afterResponseBody:22 - ËøîÂõûÂÄº:{"code":-1,"message":"ÂØÜÁ†ÅÈîôËØØ","success":false}
+2021-09-13 15:48:37,416  INFO afterResponseBody:23 - END========================================================================
+2021-09-13 15:49:47,736  INFO TestSign:41 - Begin===============================================================
+2021-09-13 15:49:47,737  INFO TestSign:42 - ËØ∑Ê±ÇË∑ØÂæÑ:/register
+ËØ∑Ê±ÇÂèÇÊï∞:{"count":"jiangyuan1","password":"123456"}
+2021-09-13 15:49:47,809  INFO afterResponseBody:22 - ËøîÂõûÂÄº:{"code":-1,"message":"ÂΩìÂâçÊ≥®ÂÜåÁöÑË¥¶Âè∑Â∑≤ÁªèÂ≠òÂú®!","success":false}
+2021-09-13 15:49:47,809  INFO afterResponseBody:23 - END========================================================================
+2021-09-13 15:50:26,468  INFO TestSign:41 - Begin===============================================================
+2021-09-13 15:50:26,469  INFO TestSign:42 - ËØ∑Ê±ÇË∑ØÂæÑ:/register
+ËØ∑Ê±ÇÂèÇÊï∞:{"count":"jiangyuan2","password":"258789"}
+2021-09-13 15:50:27,682  INFO afterResponseBody:22 - ËøîÂõûÂÄº:{"code":0,"data":{"xAuthtoken":"A6B4ACBF6F2CF308640AC0274B54201B"},"message":"Ê≥®ÂÜåÊàêÂäü","success":true}
+2021-09-13 15:50:27,682  INFO afterResponseBody:23 - END========================================================================
+2021-09-13 16:31:54,024  INFO TestSign:41 - Begin===============================================================
+2021-09-13 16:31:54,030  INFO TestSign:42 - ËØ∑Ê±ÇË∑ØÂæÑ:/signin
+ËØ∑Ê±ÇÂèÇÊï∞:{"count":"jiangyuan2","password":"258789"}
+2021-09-13 16:31:54,130  INFO afterResponseBody:22 - ËøîÂõûÂÄº:{"code":-1,"message":"ÂØÜÁ†ÅÈîôËØØ","success":false}
+2021-09-13 16:31:54,131  INFO afterResponseBody:23 - END========================================================================
+2021-09-13 16:35:51,165  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-13 16:35:54,242  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-13 16:35:54,318  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-13 16:35:54,522  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-13 16:35:54,766  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-13 16:35:55,876  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-13 17:53:06,224  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-13 17:53:09,393  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-13 17:53:09,465  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-13 17:53:09,660  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-13 17:53:09,877  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-13 17:53:10,940  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-13 17:53:31,122  INFO TestSign:41 - Begin===============================================================
+2021-09-13 17:53:31,209  INFO TestSign:42 - ËØ∑Ê±ÇË∑ØÂæÑ:/signin
+ËØ∑Ê±ÇÂèÇÊï∞:{"count":"jiangyuan2","password":"258789"}
+2021-09-13 17:53:32,260  INFO afterResponseBody:22 - ËøîÂõûÂÄº:{"code":0,"data":{"xAuthtoken":"7524F2B28DBB3EBD81ACB97A04BB1840","account":"jiangyuan2"},"message":"ÁôªÂΩïÊàêÂäü","success":true}
+2021-09-13 17:53:32,261  INFO afterResponseBody:23 - END========================================================================
