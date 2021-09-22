@@ -1,0 +1,40 @@
+2021-09-16 15:27:46,058  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-16 15:27:50,076  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-16 15:27:50,301  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-16 15:27:51,013  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-16 15:27:51,387  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-16 15:27:52,949  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-16 15:35:02,119  INFO afterResponseBody:22 - 返回值:{"timestamp":1631777701992,"status":400,"error":"Bad Request","message":"","path":"/register"}
+2021-09-16 15:35:02,119  INFO afterResponseBody:23 - END========================================================================
+2021-09-16 15:44:13,603  INFO TestSign:41 - Begin===============================================================
+2021-09-16 15:44:13,639  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"jiangyuan2","password":"258789"}
+2021-09-16 15:44:14,913  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"1EF7793CEEA944E07719BBADAB5E526B","account":"jiangyuan2"},"message":"登录成功","success":true}
+2021-09-16 15:44:14,914  INFO afterResponseBody:23 - END========================================================================
+2021-09-16 15:44:30,859  INFO TestSign:41 - Begin===============================================================
+2021-09-16 15:44:30,866  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-16 15:44:30,869  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2021-09-16 15:44:30,869  INFO afterResponseBody:23 - END========================================================================
+2021-09-16 15:45:04,715  INFO TestSign:41 - Begin===============================================================
+2021-09-16 15:45:04,716  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-16 15:45:04,754  INFO afterResponseBody:22 - 返回值:{"timestamp":1631778304754,"status":500,"error":"Internal Server Error","message":"","path":"/updatevip"}
+2021-09-16 15:45:04,755  INFO afterResponseBody:23 - END========================================================================
+2021-09-16 16:29:15,526  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-16 16:29:19,036  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-16 16:29:19,184  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-16 16:29:19,554  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-16 16:29:19,890  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-16 16:29:21,315  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-16 16:29:41,973  INFO TestSign:41 - Begin===============================================================
+2021-09-16 16:29:42,044  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-16 16:29:42,083  INFO afterResponseBody:22 - 返回值:{"timestamp":1631780982075,"status":500,"error":"Internal Server Error","message":"","path":"/updatevip"}
+2021-09-16 16:29:42,083  INFO afterResponseBody:23 - END========================================================================
+2021-09-16 16:34:08,831  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-16 16:34:11,991  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-16 16:34:12,065  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-16 16:34:12,259  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-16 16:34:12,591  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-16 16:34:13,715  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]

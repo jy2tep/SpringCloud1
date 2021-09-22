@@ -8,7 +8,15 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import serviceuser.ServiceUser.common.Vip;
 
+import java.util.List;
+
 @Component
 public interface VipDao extends JpaRepository<Vip,Integer> {
-        Vip findByAccount(String account);
+        List<Vip> findByAccount(String account);
+
+        @Transactional
+        @Modifying
+        @Query("update Vip c set c.name=?1 where c.account=?2")
+        Integer updateUsernameByaccount(String name,String account);
+
 }

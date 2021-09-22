@@ -1,0 +1,101 @@
+2021-09-17 09:49:53,682  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-17 09:49:57,251  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 09:49:57,445  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-17 09:49:57,851  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 09:49:58,211  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-17 09:49:59,449  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 09:50:26,989  INFO TestSign:41 - Begin===============================================================
+2021-09-17 09:50:27,112  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 09:50:27,161  INFO afterResponseBody:22 - 返回值:{"timestamp":1631843427149,"status":500,"error":"Internal Server Error","message":"","path":"/updatevip"}
+2021-09-17 09:50:27,162  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 10:17:53,669  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-17 10:17:57,923  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 10:17:58,014  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-17 10:17:58,280  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 10:17:58,589  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-17 10:17:59,896  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 10:19:02,858  INFO TestSign:41 - Begin===============================================================
+2021-09-17 10:19:02,931  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 10:19:02,970  INFO afterResponseBody:22 - 返回值:{"timestamp":1631845142964,"status":500,"error":"Internal Server Error","message":"","path":"/updatevip"}
+2021-09-17 10:19:02,971  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 10:20:59,511  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-17 10:21:02,789  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 10:21:02,866  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-17 10:21:03,061  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 10:21:03,302  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-17 10:21:04,431  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 10:21:26,845  INFO TestSign:41 - Begin===============================================================
+2021-09-17 10:21:26,918  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 10:21:26,957  INFO afterResponseBody:22 - 返回值:{"timestamp":1631845286948,"status":500,"error":"Internal Server Error","message":"","path":"/updatevip"}
+2021-09-17 10:21:26,957  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 15:10:58,878  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-17 15:11:02,626  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 15:11:02,717  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-17 15:11:02,944  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 15:11:03,235  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-17 15:11:04,485  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 15:11:15,574  INFO TestSign:41 - Begin===============================================================
+2021-09-17 15:11:15,654  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 15:11:16,551  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前登录的会话已经失效","success":false}
+2021-09-17 15:11:16,551  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 15:11:33,325  INFO TestSign:41 - Begin===============================================================
+2021-09-17 15:11:33,328  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"jiangyuan2","password":"258789"}
+2021-09-17 15:11:33,804  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"F2DDDF6FD4302E7C92D20B02616895A5","account":"jiangyuan2"},"message":"登录成功","success":true}
+2021-09-17 15:11:33,804  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 15:12:00,646  INFO TestSign:41 - Begin===============================================================
+2021-09-17 15:12:00,647  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 15:12:00,763  INFO afterResponseBody:22 - 返回值:{"timestamp":1631862720760,"status":500,"error":"Internal Server Error","message":"","path":"/updatevip"}
+2021-09-17 15:12:00,764  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 15:53:44,360  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-17 15:53:47,472  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 15:53:47,546  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-17 15:53:47,848  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 15:53:48,151  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-17 15:53:49,185  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 15:57:27,454  INFO TestSign:41 - Begin===============================================================
+2021-09-17 15:57:27,531  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 15:57:28,200  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前登录的会话已经失效","success":false}
+2021-09-17 15:57:28,201  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 15:57:33,111  INFO TestSign:41 - Begin===============================================================
+2021-09-17 15:57:33,114  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"jiangyuan2","password":"258789"}
+2021-09-17 15:57:33,461  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"4A8025BCAD8D04C0FC5BD40F9C54C6FA","account":"jiangyuan2"},"message":"登录成功","success":true}
+2021-09-17 15:57:33,462  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 15:57:44,426  INFO TestSign:41 - Begin===============================================================
+2021-09-17 15:57:44,427  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 15:57:44,735  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"更新失败","success":false}
+2021-09-17 15:57:44,736  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 16:11:19,687  INFO TestSign:41 - Begin===============================================================
+2021-09-17 16:11:19,688  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 16:11:19,943  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"更新失败","success":false}
+2021-09-17 16:11:19,943  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 16:22:55,339  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-17 16:22:59,189  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-17 16:22:59,407  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-17 16:22:59,908  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-17 16:23:00,348  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-17 16:23:01,937  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-17 16:31:58,255  INFO TestSign:41 - Begin===============================================================
+2021-09-17 16:31:58,396  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 16:31:59,261  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前登录的会话已经失效","success":false}
+2021-09-17 16:31:59,261  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 16:32:03,615  INFO TestSign:41 - Begin===============================================================
+2021-09-17 16:32:03,617  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"jiangyuan2","password":"258789"}
+2021-09-17 16:32:04,006  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"2ABB5959707F9053ECEBF7EFCF19A6B6","account":"jiangyuan2"},"message":"登录成功","success":true}
+2021-09-17 16:32:04,007  INFO afterResponseBody:23 - END========================================================================
+2021-09-17 16:32:13,263  INFO TestSign:41 - Begin===============================================================
+2021-09-17 16:32:13,264  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-17 16:32:13,551  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"更新失败","success":false}
+2021-09-17 16:32:13,552  INFO afterResponseBody:23 - END========================================================================
