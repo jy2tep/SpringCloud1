@@ -16,7 +16,7 @@ public interface VipDao extends JpaRepository<Vip,Integer> {
 
         @Transactional
         @Modifying
-        @Query("update Vip c set c.name=?1 where c.account=?2")
-        Integer updateUsernameByaccount(String name,String account);
+        @Query("update Vip c set c.username=?1")
+        Integer updateUsernameByaccount(String name);
 
 }

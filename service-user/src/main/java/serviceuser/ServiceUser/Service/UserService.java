@@ -28,10 +28,10 @@ public class UserService {
     public Map userCreate(UserForm userForm){
         Vip vip = new Vip();
         Map map = new HashMap();
-        vip.setAccount(userForm.getCount());
+        vip.setUsername(userForm.getCount());
         String str = "-"+userForm.getPassword()+"-";
         vip.setPassword(md5(str).toUpperCase());
-        List<Vip> list = userMapper.findByAccount(vip.getAccount());
+        List<Vip> list = userMapper.findByAccount(vip.getUsername());
         if (list.size()>0){
             throw new UserException(new ResultCode(false,-1,"当前注册的账号已经存在!"));
         }
@@ -54,21 +54,8 @@ public class UserService {
         String xAuthtoken = getxAuthToken(list.get(0));
         Map map = new HashMap();
         map.put("xAuthtoken",xAuthtoken);
-        map.put("account",list.get(0).getAccount());
-        map.put("head",list.get(0).getHeadurl());
+        map.put("account",list.get(0).getUsername());
         return map;
-    }
-    //会员修改昵年龄
-    public boolean updateUser(String account, UserNameFrom userNameFrom){
-        if (userNameFrom.getName()==null||userNameFrom.equals("")){
-            return true;
-        }
-        else {
-            System.out.println(userNameFrom.getName());
-            System.out.println(account);
-            System.out.println(userMapper.updateUsernameByaccount(userNameFrom.getName(),account));
-           return(userMapper.updateUsernameByaccount(userNameFrom.getName(),account)>0);
-        }
     }
 
     //md5加密封装
@@ -77,8 +64,8 @@ public class UserService {
     }
     //获取当前用户的token值并写入redis
     public String getxAuthToken(Vip vip){
-        String xAutoken = md5(vip.getAccount()+System.currentTimeMillis()).toUpperCase();
-        redisTemplate.boundValueOps(xAutoken).set(vip.getAccount());
+        String xAutoken = md5(vip.getUsername()+System.currentTimeMillis()).toUpperCase();
+        redisTemplate.boundValueOps(xAutoken).set(vip.getUsername());
         redisTemplate.expire(xAutoken,25, TimeUnit.MINUTES);
         return xAutoken;
     }

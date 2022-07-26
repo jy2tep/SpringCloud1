@@ -38,10 +38,4 @@ public class UserController {
         httpServletResponse.setHeader("xAuthtoken",String.valueOf(map.get("xAuthtoken")));
         return new ResponseResult<Map>(new ResultCode(true,0,"登录成功"),map);
     }
-    @RequestMapping(value = "updatevip")
-    public ResultCode updateuser(@Valid @RequestBody UserNameFrom userNameFrom, HttpServletRequest httpServletRequest){
-        String xAuthtoken = httpServletRequest.getHeader("xAuthtoken");
-        String account = (new UserTokenVerification()).getUser(xAuthtoken);
-        return userService.updateUser(account,userNameFrom)?new ResultCode(true,0,"更新成功"):new ResultCode(false,-1,"更新失败");
-    }
 }
