@@ -39,7 +39,7 @@ public class TestSign extends RequestBodyAdviceAdapter {
         Map<String, Object> input = new HashMap<>();
         Field[] fields = body.getClass().getDeclaredFields(); //获取实体类的所有属性，返回Field数组
         logger.info("Begin===============================================================");
-        logger.info("请求路径:"+request.getRequestURI()+"\n请求参数:"+ JSON.toJSONString(body));
+        logger.info("请求路径:"+request.getRequestURI()+"\n请求参数:"+ JSON.toJSONString(body)+"请求签名"+request.getHeader("X-Sign"));
         for (Field field : fields) {
             String attName = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1);
             String type = field.getGenericType().toString();    //获取属性的类型

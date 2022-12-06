@@ -1,0 +1,202 @@
+2021-09-22 13:58:25,571  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-22 13:58:31,288  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-22 13:58:32,132  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-22 13:58:34,067  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-22 13:58:34,757  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-22 13:58:37,824  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-22 13:59:41,734  INFO TestSign:41 - Begin===============================================================
+2021-09-22 13:59:41,842  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-22 13:59:42,639  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前登录的会话已经失效","success":false}
+2021-09-22 13:59:42,639  INFO afterResponseBody:23 - END========================================================================
+2021-09-22 13:59:47,303  INFO TestSign:41 - Begin===============================================================
+2021-09-22 13:59:47,308  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"jiangyuan2","password":"258789"}
+2021-09-22 13:59:47,681  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"F4F6508FDB78D4A603885A03E0E041D7","account":"jiangyuan2"},"message":"登录成功","success":true}
+2021-09-22 13:59:47,682  INFO afterResponseBody:23 - END========================================================================
+2021-09-22 14:00:04,428  INFO TestSign:41 - Begin===============================================================
+2021-09-22 14:00:04,428  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-22 14:00:04,852  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"更新失败","success":false}
+2021-09-22 14:00:04,852  INFO afterResponseBody:23 - END========================================================================
+2021-09-22 14:02:04,726  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-22 14:02:08,355  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-22 14:02:08,431  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-22 14:02:08,635  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-22 14:02:08,878  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-22 14:02:09,934  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-22 14:02:59,914  INFO TestSign:41 - Begin===============================================================
+2021-09-22 14:02:59,993  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-22 14:03:01,395  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"更新失败","success":false}
+2021-09-22 14:03:01,395  INFO afterResponseBody:23 - END========================================================================
+2021-09-22 14:05:29,175  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-22 14:05:32,536  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-22 14:05:32,614  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-22 14:05:32,848  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-22 14:05:33,098  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-22 14:05:34,183  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-22 14:06:40,404  INFO TestSign:41 - Begin===============================================================
+2021-09-22 14:06:40,486  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-22 14:06:41,212  INFO afterResponseBody:22 - 返回值:{"timestamp":1632290801203,"status":500,"error":"Internal Server Error","message":"","path":"/updatevip"}
+2021-09-22 14:06:41,212  INFO afterResponseBody:23 - END========================================================================
+2021-09-22 14:29:35,408  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2021-09-22 14:29:38,975  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-22 14:29:39,053  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-09-22 14:29:39,278  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-22 14:29:39,560  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-22 14:29:40,560  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-22 14:30:34,170  INFO TestSign:41 - Begin===============================================================
+2021-09-22 14:30:34,245  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-22 14:30:34,913  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前登录的会话已经失效","success":false}
+2021-09-22 14:30:34,914  INFO afterResponseBody:23 - END========================================================================
+2021-09-22 14:30:40,615  INFO TestSign:41 - Begin===============================================================
+2021-09-22 14:30:40,618  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"jiangyuan2","password":"258789"}
+2021-09-22 14:30:40,988  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"48B19D3857CD8BA5160737DB241B23B2","account":"jiangyuan2"},"message":"登录成功","success":true}
+2021-09-22 14:30:40,988  INFO afterResponseBody:23 - END========================================================================
+2021-09-22 14:30:50,627  INFO TestSign:41 - Begin===============================================================
+2021-09-22 14:30:50,628  INFO TestSign:42 - 请求路径:/updatevip
+请求参数:{"age":"20","name":"我是胡老炮"}
+2021-09-22 14:30:51,081  INFO afterResponseBody:22 - 返回值:{"code":0,"message":"更新成功","success":true}
+2021-09-22 14:30:51,082  INFO afterResponseBody:23 - END========================================================================
+2022-07-25 16:40:41,202  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-25 16:40:42,621  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 16:40:42,671  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-25 16:40:42,780  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 16:40:42,898  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-25 16:40:43,374  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:03:28,468  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 16:03:29,890  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 16:03:29,940  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 16:03:30,078  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 16:03:30,183  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 16:03:30,723  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:06:28,170  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 16:06:29,947  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 16:06:30,003  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 16:06:30,211  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 16:06:30,320  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 16:06:30,819  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:09:32,849  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 16:09:34,222  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 16:09:34,252  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 16:09:34,354  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 16:09:34,458  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 16:09:34,912  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:12:19,814  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 16:12:21,236  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 16:12:21,266  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 16:12:21,371  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 16:12:21,483  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 16:12:21,994  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:14:33,728  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 16:14:35,066  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 16:14:35,109  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 16:14:35,209  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 16:14:35,309  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 16:14:35,768  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:17:41,217  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 16:17:42,560  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 16:17:42,592  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 16:17:42,698  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 16:17:42,801  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 16:17:43,243  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:18:01,619  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:18:01,743  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}
+2022-07-26 16:18:01,771  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-07-26 16:18:01,772  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 16:30:28,518  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:30:28,519  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}
+2022-07-26 16:30:28,523  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-07-26 16:30:28,525  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 16:31:20,752  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:31:20,752  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}
+2022-07-26 16:31:20,752  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-07-26 16:31:20,755  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 16:34:40,347  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:34:40,349  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}
+2022-07-26 16:34:40,349  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-07-26 16:34:40,349  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 16:35:32,425  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:35:32,425  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}
+2022-07-26 16:35:32,426  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-07-26 16:35:32,426  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 16:37:00,182  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 16:37:01,978  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 16:37:02,018  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 16:37:02,131  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 16:37:02,260  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 16:37:02,786  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 16:37:33,244  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:37:33,357  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}请求签名{sign}
+2022-07-26 16:37:33,381  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-07-26 16:37:33,381  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 16:38:46,899  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:38:46,900  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}请求签名{sign}
+2022-07-26 16:38:46,900  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-07-26 16:38:46,901  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 16:41:01,682  INFO TestSign:41 - Begin===============================================================
+2022-07-26 16:41:01,683  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-07-26 16:41:01,978  WARN SqlExceptionHelper:137 - SQL Error: 1048, SQLState: 23000
+2022-07-26 16:41:01,979 ERROR SqlExceptionHelper:142 - Column 'create_time' cannot be null
+2022-07-26 16:41:02,046  INFO afterResponseBody:22 - 返回值:{"timestamp":1658824862038,"status":500,"error":"Internal Server Error","message":"","path":"/register"}
+2022-07-26 16:41:02,047  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 17:01:03,632  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 17:01:04,988  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 17:01:05,018  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 17:01:05,124  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 17:01:05,225  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 17:01:05,652  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 17:03:17,615  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 17:03:18,992  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 17:03:19,029  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 17:03:19,139  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 17:03:19,232  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 17:03:19,728  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 17:03:47,840  INFO TestSign:41 - Begin===============================================================
+2022-07-26 17:03:47,940  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-07-26 17:03:48,811  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"7F8978C9424B5B12F770A284898A26B0"},"message":"注册成功","success":true}
+2022-07-26 17:03:48,813  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 17:17:56,147  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-07-26 17:17:57,476  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 17:17:57,515  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-07-26 17:17:57,613  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 17:17:57,732  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-26 17:17:58,199  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 17:18:29,267  INFO TestSign:41 - Begin===============================================================
+2022-07-26 17:18:29,375  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-07-26 17:18:30,137  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"53FBB53C4E09AF94B62D99F3EA7B0547","account":"111"},"message":"登录成功","success":true}
+2022-07-26 17:18:30,137  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 17:18:40,031  INFO TestSign:41 - Begin===============================================================
+2022-07-26 17:18:40,031  INFO TestSign:42 - 请求路径:/register
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-07-26 17:18:40,031  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2022-07-26 17:18:40,031  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 17:19:45,291  INFO TestSign:41 - Begin===============================================================
+2022-07-26 17:19:45,291  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-07-26 17:19:45,291  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"39ECC46BD6B1A8429D69301CE4A27C09","account":"111"},"message":"登录成功","success":true}
+2022-07-26 17:19:45,291  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 17:19:55,573  INFO TestSign:41 - Begin===============================================================
+2022-07-26 17:19:55,573  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-07-26 17:19:55,578  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"054328DC0CA3CB168EA8366EFE22FA75","account":"111"},"message":"登录成功","success":true}
+2022-07-26 17:19:55,579  INFO afterResponseBody:23 - END========================================================================
+2022-07-26 17:19:56,407  INFO TestSign:41 - Begin===============================================================
+2022-07-26 17:19:56,407  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-07-26 17:19:56,416  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"2B01D7AE1F6CF94CC554AA1A911FD50C","account":"111"},"message":"登录成功","success":true}
+2022-07-26 17:19:56,418  INFO afterResponseBody:23 - END========================================================================

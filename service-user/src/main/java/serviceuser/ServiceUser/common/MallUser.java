@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @Entity
 @Table(name = "mall_user")
-public class Vip implements Serializable {
+public class MallUser implements Serializable {
     //id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)//strategy=GenerationType.IDENTITY 自增长
@@ -38,8 +38,8 @@ public class Vip implements Serializable {
     private Integer role;
     //创建时间
     @Column(name="create_time")
-    private Date create_time;
+    private Date createtime;
     //最后一次更新时间
     @Column(name="update_time")
-    private Date update_time;
+    private Date updatetime;
 }

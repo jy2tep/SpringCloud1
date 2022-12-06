@@ -6,12 +6,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 import serviceuser.ServiceUser.Excep.UserException;
 import serviceuser.ServiceUser.From.UserForm;
-import serviceuser.ServiceUser.From.UserNameFrom;
-import serviceuser.ServiceUser.Mapper.VipDao;
-import serviceuser.ServiceUser.common.Vip;
+import serviceuser.ServiceUser.Mapper.MallUserDao;
+import serviceuser.ServiceUser.common.MallUser;
 import serviceuser.ServiceUser.sign.ResultCode;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,27 +22,30 @@ public class UserService {
     @Resource
     private RedisTemplate redisTemplate;
     @Autowired
-    VipDao userMapper;
+    MallUserDao userMapper;
 
     //注册会员
     public Map userCreate(UserForm userForm){
-        Vip vip = new Vip();
+        MallUser mallUser = new MallUser();
         Map map = new HashMap();
-        vip.setUsername(userForm.getCount());
+        mallUser.setUsername(userForm.getCount());
         String str = "-"+userForm.getPassword()+"-";
-        vip.setPassword(md5(str).toUpperCase());
-        List<Vip> list = userMapper.findByAccount(vip.getUsername());
+        mallUser.setPassword(md5(str).toUpperCase());
+        mallUser.setCreatetime(new Date());
+        mallUser.setUpdatetime(new Date());
+        mallUser.setRole(1);
+        List<MallUser> list = userMapper.findAllByUsernameIs(mallUser.getUsername());
         if (list.size()>0){
             throw new UserException(new ResultCode(false,-1,"当前注册的账号已经存在!"));
         }
-        userMapper.save(vip);
-        String xAuthtoken = getxAuthToken(vip);
+        userMapper.save(mallUser);
+        String xAuthtoken = getxAuthToken(mallUser);
         map.put("xAuthtoken",xAuthtoken);
         return map;
     }
     //会员登录
     public Map userSignin(UserForm userForm){
-        List<Vip> list = userMapper.findByAccount(userForm.getCount());
+        List<MallUser> list = userMapper.findAllByUsernameIs(userForm.getCount());
         String str = "-"+userForm.getPassword()+"-";
         str = md5(str).toUpperCase();
         if (list.size()==0){
@@ -63,9 +66,9 @@ public class UserService {
         return DigestUtils.md5DigestAsHex(str.getBytes());
     }
     //获取当前用户的token值并写入redis
-    public String getxAuthToken(Vip vip){
-        String xAutoken = md5(vip.getUsername()+System.currentTimeMillis()).toUpperCase();
-        redisTemplate.boundValueOps(xAutoken).set(vip.getUsername());
+    public String getxAuthToken(MallUser mallUser){
+        String xAutoken = md5(mallUser.getUsername()+System.currentTimeMillis()).toUpperCase();
+        redisTemplate.boundValueOps(xAutoken).set(mallUser.getUsername());
         redisTemplate.expire(xAutoken,25, TimeUnit.MINUTES);
         return xAutoken;
     }

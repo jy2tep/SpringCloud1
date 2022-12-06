@@ -2,7 +2,6 @@ package serviceuser.ServiceUser.From;
 
 import lombok.Data;
 
-import javax.validation.constraints.NotEmpty;
 
 @Data
 public class UserNameFrom {

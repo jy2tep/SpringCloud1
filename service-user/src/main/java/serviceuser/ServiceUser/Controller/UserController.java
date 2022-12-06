@@ -1,25 +1,20 @@
 package serviceuser.ServiceUser.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import serviceuser.ServiceUser.From.UserForm;
-import serviceuser.ServiceUser.From.UserNameFrom;
 import serviceuser.ServiceUser.Service.UserService;
 import serviceuser.ServiceUser.sign.ResponseResult;
 import serviceuser.ServiceUser.sign.ResultCode;
-import serviceuser.ServiceUser.sign.UserTokenVerification;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
-import javax.ws.rs.POST;
-import java.util.HashMap;
 import java.util.Map;
 
 @RestController
+@RequestMapping(value = "/user/handle/")
 public class UserController {
     @Autowired
     UserService userService;

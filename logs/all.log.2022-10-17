@@ -1,0 +1,29 @@
+2022-10-17 10:10:37,803  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-17 10:10:39,387  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 10:10:39,467  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-17 10:10:39,662  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 10:10:39,848  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-10-17 10:10:40,727  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 10:12:42,821  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-17 10:12:44,283  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 10:12:44,353  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-17 10:12:44,513  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 10:12:44,690  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-10-17 10:12:45,469  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 10:14:07,019  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-17 10:14:09,934  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 10:14:09,989  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-17 10:14:10,167  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 10:14:10,365  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-10-17 10:14:11,051  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 10:22:10,626  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-17 10:22:17,641  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 10:22:17,733  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-17 10:22:17,943  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 10:22:18,138  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-10-17 10:22:19,000  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 15:00:40,327  INFO TestSign:41 - Begin===============================================================
+2022-10-17 15:00:40,422  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-17 15:00:40,441  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-17 15:00:40,442  INFO afterResponseBody:23 - END========================================================================

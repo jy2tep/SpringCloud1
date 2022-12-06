@@ -1,0 +1,118 @@
+2022-11-03 16:13:59,171  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:14:01,301  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:14:01,353  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:14:01,456  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:14:01,584  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:14:02,073  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:15:21,532  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:15:22,757  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:15:22,796  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:15:22,880  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:15:22,964  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:15:23,365  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:32:58,872  INFO afterResponseBody:22 - 返回值:{"timestamp":1667464378805,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 16:32:58,873  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:34:17,453  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:34:18,703  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:34:18,735  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:34:18,820  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:34:18,901  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:34:19,304  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:34:44,841  INFO afterResponseBody:22 - 返回值:{"timestamp":1667464484757,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 16:34:44,841  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:34:57,843  INFO afterResponseBody:22 - 返回值:{"timestamp":1667464497843,"status":404,"error":"Not Found","message":"","path":"/user/handlesignin"}
+2022-11-03 16:34:57,844  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:36:22,760  INFO afterResponseBody:22 - 返回值:{"timestamp":1667464582759,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 16:36:22,760  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:42:38,342  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:42:39,543  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:42:39,576  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:42:39,660  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:42:39,745  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:42:40,129  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:42:50,610  INFO afterResponseBody:22 - 返回值:{"timestamp":1667464970558,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 16:42:50,610  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:42:52,138  INFO afterResponseBody:22 - 返回值:{"timestamp":1667464972138,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 16:42:52,138  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:44:02,908  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:44:04,241  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:44:04,279  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:44:04,362  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:44:04,442  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:44:04,769  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:46:16,410  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:46:17,862  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:46:17,907  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:46:18,002  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:46:18,097  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:46:18,588  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:46:31,795  INFO afterResponseBody:22 - 返回值:{"timestamp":1667465191725,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 16:46:31,795  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:46:32,817  INFO afterResponseBody:22 - 返回值:{"timestamp":1667465192817,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 16:46:32,817  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:46:45,376  INFO TestSign:41 - Begin===============================================================
+2022-11-03 16:46:45,397  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 16:46:45,870  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"1907CE1CBE28C8CF4B9E44A2020C964E","account":"111"},"message":"登录成功","success":true}
+2022-11-03 16:46:45,870  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:52:45,173  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:52:46,487  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:52:46,522  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:52:46,606  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:52:46,687  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:52:47,079  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:54:51,982  INFO TestSign:41 - Begin===============================================================
+2022-11-03 16:54:52,044  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 16:54:52,415  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"86233EFE2C572BC3CE7C55D814D8C5E1","account":"111"},"message":"登录成功","success":true}
+2022-11-03 16:54:52,415  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 16:59:05,003  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 16:59:06,295  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 16:59:06,333  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 16:59:06,418  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 16:59:06,500  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 16:59:06,932  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 16:59:31,063  INFO TestSign:41 - Begin===============================================================
+2022-11-03 16:59:31,171  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 16:59:31,655  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"986AFCBC25A572612450E4ED46C49E1A","account":"111"},"message":"登录成功","success":true}
+2022-11-03 16:59:31,655  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 17:06:15,474  INFO TestSign:41 - Begin===============================================================
+2022-11-03 17:06:15,474  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 17:06:15,527  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"A3790C032DB458A440C22A03A5E9F576","account":"111"},"message":"登录成功","success":true}
+2022-11-03 17:06:15,527  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 17:07:14,315  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 17:07:15,514  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 17:07:15,553  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 17:07:15,637  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 17:07:15,717  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 17:07:16,100  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 17:07:22,213  INFO TestSign:41 - Begin===============================================================
+2022-11-03 17:07:22,270  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 17:07:22,635  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"48BE6D2A254A12DFD69E809A4AA573E3","account":"111"},"message":"登录成功","success":true}
+2022-11-03 17:07:22,636  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 17:07:28,236  INFO afterResponseBody:22 - 返回值:{"timestamp":1667466448234,"status":404,"error":"Not Found","message":"","path":"/user/handle/signin"}
+2022-11-03 17:07:28,236  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 17:11:22,460  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-03 17:11:23,670  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 17:11:23,705  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-03 17:11:23,787  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 17:11:23,869  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-03 17:11:24,261  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 17:11:41,417  INFO TestSign:41 - Begin===============================================================
+2022-11-03 17:11:41,510  INFO TestSign:42 - 请求路径:/user/handle/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 17:11:41,935  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"B29D60A01CC3B17971BC7791B95C7FA3","account":"111"},"message":"登录成功","success":true}
+2022-11-03 17:11:41,935  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 17:25:26,703  INFO TestSign:41 - Begin===============================================================
+2022-11-03 17:25:26,703  INFO TestSign:42 - 请求路径:/user/handle/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 17:25:26,727  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"76F8D1618340EB7B99686B351FA0BBA1","account":"111"},"message":"登录成功","success":true}
+2022-11-03 17:25:26,727  INFO afterResponseBody:23 - END========================================================================
+2022-11-03 17:26:38,100  INFO TestSign:41 - Begin===============================================================
+2022-11-03 17:26:38,100  INFO TestSign:42 - 请求路径:/user/handle/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-03 17:26:38,111  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"285147D817CB1ECCF6D590FA79B2EDEF","account":"111"},"message":"登录成功","success":true}
+2022-11-03 17:26:38,111  INFO afterResponseBody:23 - END========================================================================

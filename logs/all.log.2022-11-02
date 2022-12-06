@@ -1,0 +1,28 @@
+2022-11-02 16:16:10,717  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-11-02 16:16:14,406  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-02 16:16:14,538  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-02 16:16:14,799  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-02 16:16:15,040  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-02 16:16:16,037  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-02 17:00:06,068  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-02 17:00:09,121  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-02 17:00:09,177  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-02 17:00:09,313  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-02 17:00:09,476  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-02 17:00:10,291  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-02 17:59:01,835  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-02 17:59:03,196  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-02 17:59:03,231  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-02 17:59:03,312  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-02 17:59:03,397  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-02 17:59:03,820  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-02 18:01:34,636  INFO TestSign:41 - Begin===============================================================
+2022-11-02 18:01:34,748  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-11-02 18:01:34,763  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-11-02 18:01:34,764  INFO afterResponseBody:23 - END========================================================================
+2022-11-02 18:02:10,771  INFO TestSign:41 - Begin===============================================================
+2022-11-02 18:02:10,772  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-02 18:02:11,626  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"EF3BB3304EC807123E6888EBCAFBFBCC","account":"111"},"message":"登录成功","success":true}
+2022-11-02 18:02:11,627  INFO afterResponseBody:23 - END========================================================================

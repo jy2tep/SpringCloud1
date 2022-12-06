@@ -1,0 +1,290 @@
+2022-10-12 15:16:16,929  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-12 15:16:23,475  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 15:16:23,533  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-12 15:16:23,683  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-12 15:16:28,956  WARN JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 36 more
+2022-10-12 15:17:25,757  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-12 15:17:27,301  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-12 15:17:27,341  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-12 15:17:27,441  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-12 15:17:27,560  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-10-12 15:17:28,044  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 15:20:45,277  INFO TestSign:41 - Begin===============================================================
+2022-10-12 15:20:45,378  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-10-12 15:20:45,946  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"C0A5FB8FBC24696E1E23EF6ED4039C0A","account":"111"},"message":"登录成功","success":true}
+2022-10-12 15:20:45,946  INFO afterResponseBody:23 - END========================================================================
+2022-10-12 15:21:50,903  INFO TestSign:41 - Begin===============================================================
+2022-10-12 15:21:50,904  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-10-12 15:21:50,915  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"F86C9813CB0BB94AE4F7F7706BE43EF4","account":"111"},"message":"登录成功","success":true}
+2022-10-12 15:21:50,915  INFO afterResponseBody:23 - END========================================================================
+2022-10-12 15:23:32,622  INFO TestSign:41 - Begin===============================================================
+2022-10-12 15:23:32,623  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-10-12 15:23:32,643  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"80ACF0FBF1EA660981EB3B70B879F3BF","account":"111"},"message":"登录成功","success":true}
+2022-10-12 15:23:32,644  INFO afterResponseBody:23 - END========================================================================
+2022-10-12 17:45:02,684  INFO TestSign:41 - Begin===============================================================
+2022-10-12 17:45:02,707  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-10-12 17:45:02,901  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"C74DC6DAA3BA30869A3AABA6E69E40AF","account":"111"},"message":"登录成功","success":true}
+2022-10-12 17:45:02,903  INFO afterResponseBody:23 - END========================================================================
+2022-10-12 17:45:31,410  INFO afterResponseBody:22 - 返回值:{"timestamp":1665567931395,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-12 17:45:31,411  INFO afterResponseBody:23 - END========================================================================
+2022-10-12 17:45:52,116  INFO afterResponseBody:22 - 返回值:{"timestamp":1665567952116,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-12 17:45:52,116  INFO afterResponseBody:23 - END========================================================================
+2022-10-12 17:46:31,082  INFO afterResponseBody:22 - 返回值:{"timestamp":1665567991082,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-12 17:46:31,082  INFO afterResponseBody:23 - END========================================================================2022-10-13 14:10:08,130  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-13 14:10:14,659  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 14:10:14,724  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-13 14:10:14,894  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-13 14:10:20,096  WARN JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 36 more
+2022-10-13 14:10:55,567  INFO Version:21 - HV000001: Hibernate Validator 6.1.6.Final
+2022-10-13 14:10:56,886  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 14:10:56,918  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-10-13 14:10:57,015  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-13 14:10:57,127  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-10-13 14:10:57,643  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 14:12:05,092  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:12:05,158  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-10-13 14:12:05,538  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"8B940D1FBE949AEE7EC73076154A8185","account":"111"},"message":"登录成功","success":true}
+2022-10-13 14:12:05,538  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:17:19,095  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:17:19,097  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-10-13 14:17:19,127  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"27008D1380AE4C6BB5C743BF0680636F","account":"111"},"message":"登录成功","success":true}
+2022-10-13 14:17:19,128  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:17:52,176  INFO afterResponseBody:22 - 返回值:{"timestamp":1665641872170,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:17:52,176  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:26:26,044  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:26:26,044  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-10-13 14:26:26,068  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"3969F4684CDB861BE9167B5650F000A2","account":"111"},"message":"登录成功","success":true}
+2022-10-13 14:26:26,068  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:27:15,016  INFO afterResponseBody:22 - 返回值:{"timestamp":1665642435016,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:27:15,016  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:39:01,403  INFO afterResponseBody:22 - 返回值:{"timestamp":1665643141403,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:39:01,403  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:41:08,124  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:41:08,125  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:41:08,128  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:41:08,129  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:44:22,208  INFO afterResponseBody:22 - 返回值:{"timestamp":1665643462208,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:44:22,208  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:44:32,340  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:44:32,341  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:44:32,342  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:44:32,343  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:44:53,346  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:44:53,347  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:44:53,350  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:44:53,350  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:44:58,518  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:44:58,519  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:44:58,519  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:44:58,519  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:45:12,511  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:45:12,511  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:45:12,512  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:45:12,512  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:47:11,944  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:47:11,944  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:47:11,944  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:47:11,945  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:47:58,130  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:47:58,130  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:47:58,130  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:47:58,130  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:49:05,845  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:49:05,846  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:49:05,846  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:49:05,847  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:51:55,062  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:51:55,062  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:51:55,062  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:51:55,062  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:52:32,074  INFO afterResponseBody:22 - 返回值:{"timestamp":1665643952074,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:52:32,074  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:52:53,784  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:52:53,784  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:52:53,784  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:52:53,784  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:52:56,384  INFO TestSign:41 - Begin===============================================================
+2022-10-13 14:52:56,384  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 14:52:56,385  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 14:52:56,385  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:53:26,306  INFO afterResponseBody:22 - 返回值:{"timestamp":1665644006306,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:53:26,306  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:53:37,737  INFO afterResponseBody:22 - 返回值:{"timestamp":1665644017736,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:53:37,737  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:54:06,073  INFO afterResponseBody:22 - 返回值:{"timestamp":1665644046072,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:54:06,073  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:54:25,582  INFO afterResponseBody:22 - 返回值:{"timestamp":1665644065582,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:54:25,583  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:54:34,023  INFO afterResponseBody:22 - 返回值:{"timestamp":1665644074023,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:54:34,023  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:54:47,321  INFO afterResponseBody:22 - 返回值:{"timestamp":1665644087320,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:54:47,321  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 14:59:02,568  INFO afterResponseBody:22 - 返回值:{"timestamp":1665644342567,"status":400,"error":"Bad Request","message":"","path":"/signin"}
+2022-10-13 14:59:02,568  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 15:02:16,358  INFO TestSign:41 - Begin===============================================================
+2022-10-13 15:02:16,358  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 15:02:16,360  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 15:02:16,361  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 15:02:48,946  INFO TestSign:41 - Begin===============================================================
+2022-10-13 15:02:48,946  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 15:02:48,946  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 15:02:48,946  INFO afterResponseBody:23 - END========================================================================
+2022-10-13 15:03:14,024  INFO TestSign:41 - Begin===============================================================
+2022-10-13 15:03:14,024  INFO TestSign:42 - 请求路径:/signin
+请求参数:{"count":"111","password":"123456"}请求签名null
+2022-10-13 15:03:14,024  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"签名错误","success":false}
+2022-10-13 15:03:14,024  INFO afterResponseBody:23 - END========================================================================
