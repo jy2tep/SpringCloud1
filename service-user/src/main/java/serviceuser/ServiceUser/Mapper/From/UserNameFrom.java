@@ -1,4 +1,4 @@
-package serviceuser.ServiceUser.From;
+package serviceuser.ServiceUser.Mapper.From;
 
 import lombok.Data;
 

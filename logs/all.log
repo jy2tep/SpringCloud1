@@ -1,11 +1,32 @@
-2022-11-15 10:30:38,304  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
-2022-11-15 10:30:39,691  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-11-15 10:30:39,742  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
-2022-11-15 10:30:39,858  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-11-15 10:30:39,966  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2022-11-15 10:30:40,434  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-11-15 16:24:47,896  INFO TestSign:41 - Begin===============================================================
-2022-11-15 16:24:48,006  INFO TestSign:42 - 请求路径:/user/handle/signin
-请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
-2022-11-15 16:24:48,559  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"381B8EF4C1CDE754E66DB2795B8AB366","account":"111"},"message":"登录成功","success":true}
-2022-11-15 16:24:48,559  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 10:25:42,548  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"F148867B892DDEB4E763EE76198211B8"},"message":"登录成功","success":true}
+2023-07-25 10:25:42,555  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 10:48:44,575  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"A55B5081919B8469355632EB53DF33B1"},"message":"登录成功","success":true}
+2023-07-25 10:48:44,577  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 10:53:45,109  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"06A286A4D646F01BACD29CE5A783152A"},"message":"登录成功","success":true}
+2023-07-25 10:53:45,111  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:23:07,214  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"7DAD11F27F9A230BF83BE67905EF1DCB"},"message":"登录成功","success":true}
+2023-07-25 11:23:07,237  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:25:19,591  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"EBA9AABE2C221F5FA42F96D8F3F85D45"},"message":"登录成功","success":true}
+2023-07-25 11:25:19,595  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:26:46,940  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"密码错误","success":false}
+2023-07-25 11:26:46,941  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:26:52,694  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"密码错误","success":false}
+2023-07-25 11:26:52,694  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:27:01,755  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"密码错误","success":false}
+2023-07-25 11:27:01,756  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:27:13,046  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"7C0F381081C9B2127896ADBB0DC6AB19"},"message":"登录成功","success":true}
+2023-07-25 11:27:13,047  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:28:43,099  INFO afterResponseBody:22 - 返回值:{"timestamp":1690255723096,"status":400,"error":"Bad Request","message":"","path":"/user/handle/signin"}
+2023-07-25 11:28:43,100  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:28:47,195  INFO afterResponseBody:22 - 返回值:{"timestamp":1690255727194,"status":400,"error":"Bad Request","message":"","path":"/user/handle/signin"}
+2023-07-25 11:28:47,195  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:29:40,588  INFO afterResponseBody:22 - 返回值:{"timestamp":1690255780585,"status":400,"error":"Bad Request","message":"","path":"/user/handle/signin"}
+2023-07-25 11:29:40,590  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:35:25,352  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"111","id":1,"token":"4EAABB620B7A4D4538A41887084A3F5C"},"message":"登录成功","success":true}
+2023-07-25 11:35:25,354  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:35:32,841  INFO afterResponseBody:22 - 返回值:{"timestamp":1690256132831,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/signin"}
+2023-07-25 11:35:32,842  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:37:45,192  INFO afterResponseBody:22 - 返回值:{"timestamp":1690256264948,"status":400,"error":"Bad Request","message":"","path":"/user/handle/signin"}
+2023-07-25 11:37:45,202  INFO afterResponseBody:23 - END========================================================================
+2023-07-25 11:40:54,178  INFO afterResponseBody:22 - 返回值:{"timestamp":1690256453929,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/signin"}
+2023-07-25 11:40:54,185  INFO afterResponseBody:23 - END========================================================================

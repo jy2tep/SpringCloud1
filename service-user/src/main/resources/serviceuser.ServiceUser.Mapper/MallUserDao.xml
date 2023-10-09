@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="serviceuser.ServiceUser.Mapper.MallUserDao">
+    <insert id="save">
+        insert into mall_user (username,password,role,create_time,update_time) values (#{mallUser.username},#{mallUser.password},1,#{mallUser.createtime},#{mallUser.updatetime})
+    </insert>
+    <update id="updateUsernameByaccount">
+        update mall_user c set c.username=#{name} where c.username = ${name}
+    </update>
+
+
+    <select id="findAllByUsernameIs" resultType="serviceuser.ServiceUser.common.MallUser">
+        select * from mall_user where username = ${username}
+    </select>
+    <select id="getStock" resultType="serviceuser.ServiceUser.common.MallProduct">
+        select c from MallProduct c where c.id=#{id}
+    </select>
+</mapper>

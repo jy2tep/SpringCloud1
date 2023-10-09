@@ -1,0 +1,42 @@
+2023-06-29 20:10:39,682  INFO afterResponseBody:22 - 返回值:{"timestamp":1688040639544,"status":404,"error":"Not Found","message":"","path":"/register"}
+2023-06-29 20:10:39,689  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:10:55,078  INFO afterResponseBody:22 - 返回值:{"timestamp":1688040655078,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/register"}
+2023-06-29 20:10:55,080  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:13:30,311  INFO afterResponseBody:22 - 返回值:{"timestamp":1688040810223,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/register"}
+2023-06-29 20:13:30,312  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:14:37,596  INFO afterResponseBody:22 - 返回值:{"timestamp":1688040877519,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/register"}
+2023-06-29 20:14:37,597  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:16:44,024  INFO afterResponseBody:22 - 返回值:{"timestamp":1688041003874,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/register"}
+2023-06-29 20:16:44,033  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:20:23,863  INFO afterResponseBody:22 - 返回值:{"timestamp":1688041223674,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/register"}
+2023-06-29 20:20:23,866  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:25:53,070  INFO afterResponseBody:22 - 返回值:{"timestamp":1688041552846,"status":500,"error":"Internal Server Error","message":"","path":"/user/handle/register"}
+2023-06-29 20:25:53,077  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:26:43,398  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"602938A195A912D4059C43A440ABDEDE"},"message":"注册成功","success":true}
+2023-06-29 20:26:43,403  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:33:32,447  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2023-06-29 20:33:32,454  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:33:39,036  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1113","id":3,"token":"375DCC2D337B348516E50600E68B645B"},"message":"注册成功","success":true}
+2023-06-29 20:33:39,036  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:44:43,272  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2023-06-29 20:44:43,273  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:44:50,216  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2023-06-29 20:44:50,216  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 20:44:53,854  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1114","id":4,"token":"7F844D6ED9489133FC0FB7E467266EF6"},"message":"注册成功","success":true}
+2023-06-29 20:44:53,856  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 22:05:54,049  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2023-06-29 22:05:54,058  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 22:06:02,328  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2023-06-29 22:06:02,329  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 22:07:20,646  INFO afterResponseBody:22 - 返回值:{"timestamp":1688047640624,"status":400,"error":"Bad Request","message":"","path":"/user/handle/register"}
+2023-06-29 22:07:20,647  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 22:07:42,391  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"4B2A595F55F03DB3FD60A9CE648EF8B5"},"message":"注册成功","success":true}
+2023-06-29 22:07:42,391  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 22:09:24,035  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2023-06-29 22:09:24,037  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 23:26:37,797  INFO afterResponseBody:22 - 返回值:{"timestamp":1688052397796,"status":404,"error":"Not Found","message":"","path":"/favicon.ico"}
+2023-06-29 23:26:37,797  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 23:47:02,452  INFO afterResponseBody:22 - 返回值:{"code":-1,"message":"当前注册的账号已经存在!","success":false}
+2023-06-29 23:47:02,453  INFO afterResponseBody:23 - END========================================================================
+2023-06-29 23:47:24,306  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"name":"1115","id":5,"token":"A1B02E0D8448E41E2155130C9984C388"},"message":"登录成功","success":true}
+2023-06-29 23:47:24,307  INFO afterResponseBody:23 - END========================================================================

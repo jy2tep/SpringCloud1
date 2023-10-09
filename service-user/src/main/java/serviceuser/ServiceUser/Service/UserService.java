@@ -1,12 +1,16 @@
 package serviceuser.ServiceUser.Service;
 
+import com.alibaba.fastjson.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 import serviceuser.ServiceUser.Excep.UserException;
-import serviceuser.ServiceUser.From.UserForm;
+import serviceuser.ServiceUser.Mapper.From.UserForm;
 import serviceuser.ServiceUser.Mapper.MallUserDao;
+import serviceuser.ServiceUser.common.MallProduct;
 import serviceuser.ServiceUser.common.MallUser;
 import serviceuser.ServiceUser.sign.ResultCode;
 
@@ -19,6 +23,8 @@ import java.util.concurrent.TimeUnit;
 
 @Service
 public class UserService {
+
+    Logger logger = LoggerFactory.getLogger(UserService.class);
     @Resource
     private RedisTemplate redisTemplate;
     @Autowired
@@ -28,7 +34,7 @@ public class UserService {
     public Map userCreate(UserForm userForm){
         MallUser mallUser = new MallUser();
         Map map = new HashMap();
-        mallUser.setUsername(userForm.getCount());
+        mallUser.setUsername(userForm.getName());
         String str = "-"+userForm.getPassword()+"-";
         mallUser.setPassword(md5(str).toUpperCase());
         mallUser.setCreatetime(new Date());
@@ -39,13 +45,16 @@ public class UserService {
             throw new UserException(new ResultCode(false,-1,"当前注册的账号已经存在!"));
         }
         userMapper.save(mallUser);
+        list = userMapper.findAllByUsernameIs(mallUser.getUsername());
         String xAuthtoken = getxAuthToken(mallUser);
-        map.put("xAuthtoken",xAuthtoken);
+        map.put("id",list.get(0).getId());
+        map.put("token",xAuthtoken);
+        map.put("name",list.get(0).getUsername());
         return map;
     }
     //会员登录
     public Map userSignin(UserForm userForm){
-        List<MallUser> list = userMapper.findAllByUsernameIs(userForm.getCount());
+        List<MallUser> list = userMapper.findAllByUsernameIs(userForm.getName());
         String str = "-"+userForm.getPassword()+"-";
         str = md5(str).toUpperCase();
         if (list.size()==0){
@@ -56,8 +65,9 @@ public class UserService {
         }
         String xAuthtoken = getxAuthToken(list.get(0));
         Map map = new HashMap();
-        map.put("xAuthtoken",xAuthtoken);
-        map.put("account",list.get(0).getUsername());
+        map.put("id",list.get(0).getId());
+        map.put("token",xAuthtoken);
+        map.put("name",list.get(0).getUsername());
         return map;
     }
 
@@ -71,6 +81,13 @@ public class UserService {
         redisTemplate.boundValueOps(xAutoken).set(mallUser.getUsername());
         redisTemplate.expire(xAutoken,25, TimeUnit.MINUTES);
         return xAutoken;
+    }
+
+
+    public void getAuthToken(int id){
+        //获取对应的商品信息并返回
+        MallProduct mallProduct = userMapper.getStock(1);
+        logger.info(JSONObject.toJSONString(mallProduct));
     }
 
 }

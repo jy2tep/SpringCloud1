@@ -1,0 +1,6 @@
+2023-03-15 09:28:27,178  INFO afterResponseBody:22 - 返回值:{"timestamp":1678843707176,"status":400,"error":"Bad Request","message":"","path":"/user/handle/get"}
+2023-03-15 09:28:27,182  INFO afterResponseBody:23 - END========================================================================
+2023-03-15 09:28:36,963  INFO afterResponseBody:22 - 返回值:{"timestamp":1678843716962,"status":400,"error":"Bad Request","message":"","path":"/user/handle/get"}
+2023-03-15 09:28:36,964  INFO afterResponseBody:23 - END========================================================================
+2023-03-15 09:28:56,693  INFO afterResponseBody:22 - 返回值:{"timestamp":1678843736692,"status":400,"error":"Bad Request","message":"","path":"/user/handle/get"}
+2023-03-15 09:28:56,695  INFO afterResponseBody:23 - END========================================================================

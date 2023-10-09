@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>啦啦啦啦</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      text-align: center;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      width: 90%;
+      max-width: 600px;
+      background-color: #ffcc99;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; transform: scale(1.05); }
+    }
+    h1 {
+      color: #fff;
+      font-size: 30px;
+      background-color: #e66767;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+    .blessing-img {
+      width: 100%; /* 图片宽度100%，铺满容器 */
+      height: auto; /* 高度自适应，保持图片比例 */
+      margin-bottom: 10px; /* 调整图片与段落之间的间距 */
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>祝福新人</h1>
+    <div class="blessing">
+      <p>亲爱的丁蕊：</p>
+      <p>衷心祝贺你即将步入婚姻的殿堂！愿你们携手同行，相互扶持，携手走过人生的每一段旅程。</p>
+      <p>愿你们的婚姻幸福美满，如同这喜庆的贺卡一般，充满温馨和爱意。</p>
+      <p>祝你们百年好合，幸福永久！</p>
+      <img class="blessing-img" src="http://1d6c59ae.r2.cpolar.cn/111.png?t=1" alt="祝福人1">
+      <p>老蒋</p>
+    </div>
+    <div class="blessing">
+      <img class="blessing-img" src="http://1d6c59ae.r2.cpolar.cn/333.png?t=2" alt="祝福人2">
+      <p>老周</p>
+    </div>
+    <div class="blessing">
+      <img class="blessing-img" src="http://1d6c59ae.r2.cpolar.cn/222.png?t=3" alt="祝福人3">
+      <p>倩子</p>
+    </div>
+  </div>
+</body>
+</html>

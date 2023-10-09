@@ -1,0 +1,11 @@
+2022-11-15 10:30:38,304  INFO Version:30 - HV000001: Hibernate Validator 5.4.1.Final
+2022-11-15 10:30:39,691  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 10:30:39,742  INFO Version:44 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2022-11-15 10:30:39,858  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-15 10:30:39,966  INFO Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-11-15 10:30:40,434  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 16:24:47,896  INFO TestSign:41 - Begin===============================================================
+2022-11-15 16:24:48,006  INFO TestSign:42 - 请求路径:/user/handle/signin
+请求参数:{"count":"111","password":"123456"}请求签名89409FA210CDD8EE2AF5F8787DF80CC7
+2022-11-15 16:24:48,559  INFO afterResponseBody:22 - 返回值:{"code":0,"data":{"xAuthtoken":"381B8EF4C1CDE754E66DB2795B8AB366","account":"111"},"message":"登录成功","success":true}
+2022-11-15 16:24:48,559  INFO afterResponseBody:23 - END========================================================================

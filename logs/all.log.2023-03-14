@@ -1,0 +1,8 @@
+2023-03-14 18:03:09,090  INFO afterResponseBody:22 - 返回值:{"timestamp":1678788188971,"status":404,"error":"Not Found","message":"","path":"/user/handle/get"}
+2023-03-14 18:03:09,094  INFO afterResponseBody:23 - END========================================================================
+2023-03-14 18:03:34,088  INFO afterResponseBody:22 - 返回值:{"timestamp":1678788214088,"status":404,"error":"Not Found","message":"","path":"/user/handle/get"}
+2023-03-14 18:03:34,089  INFO afterResponseBody:23 - END========================================================================
+2023-03-14 18:04:35,449  INFO afterResponseBody:22 - 返回值:{"timestamp":1678788275378,"status":400,"error":"Bad Request","message":"","path":"/user/handle/get"}
+2023-03-14 18:04:35,454  INFO afterResponseBody:23 - END========================================================================
+2023-03-14 18:04:41,232  INFO afterResponseBody:22 - 返回值:{"timestamp":1678788281229,"status":400,"error":"Bad Request","message":"","path":"/user/handle/get"}
+2023-03-14 18:04:41,232  INFO afterResponseBody:23 - END========================================================================
